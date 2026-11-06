@@ -1,0 +1,639 @@
+{
+  "format": "xpenc-template-index",
+  "version": 1,
+  "sections": [
+    {
+      "id": "quick-setups",
+      "label": "Quick setups"
+    },
+    {
+      "id": "community",
+      "label": "Community"
+    }
+  ],
+  "templates": [
+    {
+      "id": "50-30-20-budget",
+      "section": "quick-setups",
+      "path": "quick-setups/50-30-20-budget.json",
+      "name": "50/30/20 Budget",
+      "description": "Two groups for everything you spend: Needs (about 50% of what comes in) and Wants (about 30%). Put the last 20% into Goals - saving is a transfer, not spending.",
+      "count": 22,
+      "income": [
+        {
+          "name": "Salary",
+          "icon": "salary",
+          "color": "#16A34A"
+        },
+        {
+          "name": "Profit",
+          "icon": "profit",
+          "color": "#0EA5E9"
+        },
+        {
+          "name": "Gift",
+          "icon": "gift",
+          "color": "#A855F7"
+        },
+        {
+          "name": "Cash",
+          "icon": "cash",
+          "color": "#22C55E"
+        },
+        {
+          "name": "Interest",
+          "icon": "interest",
+          "color": "#14B8A6"
+        },
+        {
+          "name": "Refund",
+          "icon": "refund",
+          "color": "#64748B"
+        }
+      ],
+      "expense": [
+        {
+          "name": "Needs",
+          "icon": "house",
+          "color": "#2563EB",
+          "children": [
+            {
+              "name": "Rent",
+              "icon": "rent",
+              "color": "#DC2626"
+            },
+            {
+              "name": "Groceries",
+              "icon": "groceries",
+              "color": "#84CC16"
+            },
+            {
+              "name": "Bills",
+              "icon": "bills",
+              "color": "#8B5CF6"
+            },
+            {
+              "name": "Transport",
+              "icon": "transport",
+              "color": "#3B82F6"
+            },
+            {
+              "name": "Health",
+              "icon": "health",
+              "color": "#EF4444"
+            },
+            {
+              "name": "EMI",
+              "icon": "emi",
+              "color": "#78716C"
+            },
+            {
+              "name": "Insurance",
+              "icon": "insurance",
+              "color": "#0EA5E9"
+            },
+            {
+              "name": "Education",
+              "icon": "education",
+              "color": "#F59E0B"
+            }
+          ]
+        },
+        {
+          "name": "Wants",
+          "icon": "festival",
+          "color": "#EC4899",
+          "children": [
+            {
+              "name": "Food",
+              "icon": "food",
+              "color": "#F97316"
+            },
+            {
+              "name": "Shopping",
+              "icon": "shopping",
+              "color": "#DB2777"
+            },
+            {
+              "name": "Entertainment",
+              "icon": "entertainment",
+              "color": "#06B6D4"
+            },
+            {
+              "name": "Travel",
+              "icon": "travel",
+              "color": "#14B8A6"
+            },
+            {
+              "name": "Subscriptions",
+              "icon": "streaming",
+              "color": "#6366F1"
+            },
+            {
+              "name": "Personal care",
+              "icon": "spa",
+              "color": "#F472B6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "family-household",
+      "section": "quick-setups",
+      "path": "quick-setups/family-household.json",
+      "name": "Family Household",
+      "description": "For running a home: rent and society maintenance, monthly bills, ration, kids' school, vehicle, health, festivals and loan EMIs, each grouped so the month adds up at a glance.",
+      "count": 53,
+      "income": [
+        {
+          "name": "Salary",
+          "icon": "salary",
+          "color": "#16A34A"
+        },
+        {
+          "name": "Profit",
+          "icon": "profit",
+          "color": "#0EA5E9"
+        },
+        {
+          "name": "Rental Income",
+          "icon": "house",
+          "color": "#0D9488"
+        },
+        {
+          "name": "Interest",
+          "icon": "interest",
+          "color": "#14B8A6"
+        },
+        {
+          "name": "Gift",
+          "icon": "gift",
+          "color": "#A855F7"
+        },
+        {
+          "name": "Cash",
+          "icon": "cash",
+          "color": "#22C55E"
+        },
+        {
+          "name": "Refund",
+          "icon": "refund",
+          "color": "#64748B"
+        }
+      ],
+      "expense": [
+        {
+          "name": "Home",
+          "icon": "house",
+          "color": "#2563EB",
+          "children": [
+            {
+              "name": "Rent",
+              "icon": "rent",
+              "color": "#DC2626"
+            },
+            {
+              "name": "Society Maintenance",
+              "icon": "apartment",
+              "color": "#1D4ED8"
+            },
+            {
+              "name": "Repairs",
+              "icon": "repair",
+              "color": "#3B82F6"
+            },
+            {
+              "name": "Domestic Help",
+              "icon": "cleaning",
+              "color": "#60A5FA"
+            }
+          ]
+        },
+        {
+          "name": "Bills",
+          "icon": "bills",
+          "color": "#8B5CF6",
+          "children": [
+            {
+              "name": "Electricity",
+              "icon": "electricity",
+              "color": "#EAB308"
+            },
+            {
+              "name": "Water",
+              "icon": "water",
+              "color": "#0EA5E9"
+            },
+            {
+              "name": "Cooking Gas",
+              "icon": "gas",
+              "color": "#F97316"
+            },
+            {
+              "name": "Internet & DTH",
+              "icon": "wifi",
+              "color": "#7C3AED"
+            },
+            {
+              "name": "Mobile Recharge",
+              "icon": "phone",
+              "color": "#6366F1"
+            }
+          ]
+        },
+        {
+          "name": "Groceries",
+          "icon": "groceries",
+          "color": "#84CC16",
+          "children": [
+            {
+              "name": "Monthly Ration",
+              "icon": "kitchen",
+              "color": "#65A30D"
+            },
+            {
+              "name": "Vegetables & Fruits",
+              "icon": "store",
+              "color": "#22C55E"
+            },
+            {
+              "name": "Milk & Dairy",
+              "icon": "breakfast",
+              "color": "#A3E635"
+            }
+          ]
+        },
+        {
+          "name": "Kids",
+          "icon": "baby",
+          "color": "#F59E0B",
+          "children": [
+            {
+              "name": "School Fees",
+              "icon": "education",
+              "color": "#D97706"
+            },
+            {
+              "name": "Tuition & Classes",
+              "icon": "reading",
+              "color": "#CA8A04"
+            },
+            {
+              "name": "Toys & Activities",
+              "icon": "soccer",
+              "color": "#FBBF24"
+            }
+          ]
+        },
+        {
+          "name": "Transport",
+          "icon": "transport",
+          "color": "#3B82F6",
+          "children": [
+            {
+              "name": "Fuel",
+              "icon": "fuel",
+              "color": "#1D4ED8"
+            },
+            {
+              "name": "Vehicle Service",
+              "icon": "car_repair",
+              "color": "#2563EB"
+            },
+            {
+              "name": "Public Transport",
+              "icon": "train",
+              "color": "#60A5FA"
+            },
+            {
+              "name": "Cab & Auto",
+              "icon": "taxi",
+              "color": "#93C5FD"
+            }
+          ]
+        },
+        {
+          "name": "Health",
+          "icon": "health",
+          "color": "#EF4444",
+          "children": [
+            {
+              "name": "Doctor",
+              "icon": "doctor",
+              "color": "#DC2626"
+            },
+            {
+              "name": "Medicines",
+              "icon": "pharmacy",
+              "color": "#F87171"
+            },
+            {
+              "name": "Health Insurance",
+              "icon": "insurance",
+              "color": "#B91C1C"
+            }
+          ]
+        },
+        {
+          "name": "Food",
+          "icon": "food",
+          "color": "#F97316",
+          "children": [
+            {
+              "name": "Eating Out",
+              "icon": "dinner",
+              "color": "#EA580C"
+            },
+            {
+              "name": "Food Delivery",
+              "icon": "fastfood",
+              "color": "#FB923C"
+            }
+          ]
+        },
+        {
+          "name": "Shopping",
+          "icon": "shopping",
+          "color": "#EC4899",
+          "children": [
+            {
+              "name": "Clothing",
+              "icon": "clothing",
+              "color": "#DB2777"
+            },
+            {
+              "name": "Home Essentials",
+              "icon": "furniture",
+              "color": "#BE185D"
+            },
+            {
+              "name": "Electronics",
+              "icon": "tv",
+              "color": "#F472B6"
+            }
+          ]
+        },
+        {
+          "name": "Entertainment",
+          "icon": "entertainment",
+          "color": "#06B6D4",
+          "children": [
+            {
+              "name": "Movies & Outings",
+              "icon": "theater",
+              "color": "#0891B2"
+            },
+            {
+              "name": "Subscriptions",
+              "icon": "streaming",
+              "color": "#6366F1"
+            }
+          ]
+        },
+        {
+          "name": "Festivals & Gifts",
+          "icon": "festival",
+          "color": "#E11D48",
+          "children": [
+            {
+              "name": "Festivals",
+              "icon": "festival",
+              "color": "#F43F5E"
+            },
+            {
+              "name": "Gifts",
+              "icon": "gift",
+              "color": "#A855F7"
+            },
+            {
+              "name": "Donations",
+              "icon": "donation",
+              "color": "#9F1239"
+            }
+          ]
+        },
+        {
+          "name": "EMI",
+          "icon": "emi",
+          "color": "#78716C",
+          "children": [
+            {
+              "name": "Home Loan",
+              "icon": "house",
+              "color": "#57534E"
+            },
+            {
+              "name": "Vehicle Loan",
+              "icon": "car",
+              "color": "#A8A29E"
+            },
+            {
+              "name": "Personal Loan",
+              "icon": "bank",
+              "color": "#44403C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "student",
+      "section": "quick-setups",
+      "path": "quick-setups/student.json",
+      "name": "Student",
+      "description": "For college and hostel life: pocket money and scholarships in; fees, books, canteen, hostel, travel passes and recharges out.",
+      "count": 34,
+      "income": [
+        {
+          "name": "Pocket Money",
+          "icon": "wallet",
+          "color": "#16A34A"
+        },
+        {
+          "name": "Scholarship",
+          "icon": "education",
+          "color": "#0EA5E9"
+        },
+        {
+          "name": "Part-time Job",
+          "icon": "salary",
+          "color": "#22C55E"
+        },
+        {
+          "name": "Gift",
+          "icon": "gift",
+          "color": "#A855F7"
+        },
+        {
+          "name": "Refund",
+          "icon": "refund",
+          "color": "#64748B"
+        }
+      ],
+      "expense": [
+        {
+          "name": "College",
+          "icon": "education",
+          "color": "#F59E0B",
+          "children": [
+            {
+              "name": "Fees",
+              "icon": "invoice",
+              "color": "#D97706"
+            },
+            {
+              "name": "Books & Stationery",
+              "icon": "reading",
+              "color": "#CA8A04"
+            },
+            {
+              "name": "Exam Fees",
+              "icon": "tax",
+              "color": "#B45309"
+            },
+            {
+              "name": "Courses & Projects",
+              "icon": "laptop",
+              "color": "#EA580C"
+            }
+          ]
+        },
+        {
+          "name": "Food",
+          "icon": "food",
+          "color": "#F97316",
+          "children": [
+            {
+              "name": "Canteen & Mess",
+              "icon": "lunch",
+              "color": "#FB923C"
+            },
+            {
+              "name": "Snacks & Coffee",
+              "icon": "cafe",
+              "color": "#C2410C"
+            },
+            {
+              "name": "Groceries",
+              "icon": "groceries",
+              "color": "#84CC16"
+            }
+          ]
+        },
+        {
+          "name": "Rent",
+          "icon": "rent",
+          "color": "#DC2626",
+          "children": [
+            {
+              "name": "Hostel & PG",
+              "icon": "apartment",
+              "color": "#B91C1C"
+            },
+            {
+              "name": "Laundry",
+              "icon": "laundry",
+              "color": "#F87171"
+            }
+          ]
+        },
+        {
+          "name": "Transport",
+          "icon": "transport",
+          "color": "#3B82F6",
+          "children": [
+            {
+              "name": "Bus & Train Pass",
+              "icon": "train",
+              "color": "#2563EB"
+            },
+            {
+              "name": "Fuel",
+              "icon": "fuel",
+              "color": "#1D4ED8"
+            },
+            {
+              "name": "Cab & Auto",
+              "icon": "taxi",
+              "color": "#60A5FA"
+            }
+          ]
+        },
+        {
+          "name": "Phone & Internet",
+          "icon": "wifi",
+          "color": "#8B5CF6",
+          "children": [
+            {
+              "name": "Mobile Recharge",
+              "icon": "phone",
+              "color": "#7C3AED"
+            },
+            {
+              "name": "Subscriptions",
+              "icon": "streaming",
+              "color": "#6366F1"
+            }
+          ]
+        },
+        {
+          "name": "Entertainment",
+          "icon": "entertainment",
+          "color": "#06B6D4",
+          "children": [
+            {
+              "name": "Movies",
+              "icon": "theater",
+              "color": "#0891B2"
+            },
+            {
+              "name": "Outings & Trips",
+              "icon": "hiking",
+              "color": "#14B8A6"
+            },
+            {
+              "name": "Gaming",
+              "icon": "gaming",
+              "color": "#0E7490"
+            }
+          ]
+        },
+        {
+          "name": "Shopping",
+          "icon": "shopping",
+          "color": "#EC4899",
+          "children": [
+            {
+              "name": "Clothes",
+              "icon": "clothing",
+              "color": "#DB2777"
+            },
+            {
+              "name": "Gadgets",
+              "icon": "headphones",
+              "color": "#BE185D"
+            }
+          ]
+        },
+        {
+          "name": "Health",
+          "icon": "health",
+          "color": "#EF4444",
+          "children": [
+            {
+              "name": "Medicines",
+              "icon": "pharmacy",
+              "color": "#DC2626"
+            },
+            {
+              "name": "Gym",
+              "icon": "fitness",
+              "color": "#F87171"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
