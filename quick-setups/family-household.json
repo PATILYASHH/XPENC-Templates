@@ -1,0 +1,129 @@
+{
+  "format": "xpenc-category-template",
+  "version": 1,
+  "name": "Family Household",
+  "description": "For running a home: rent and society maintenance, monthly bills, ration, kids' school, vehicle, health, festivals and loan EMIs, each grouped so the month adds up at a glance.",
+  "income": [
+    { "name": "Salary", "icon": "salary", "color": "#16A34A" },
+    { "name": "Profit", "icon": "profit", "color": "#0EA5E9" },
+    { "name": "Rental Income", "icon": "house", "color": "#0D9488" },
+    { "name": "Interest", "icon": "interest", "color": "#14B8A6" },
+    { "name": "Gift", "icon": "gift", "color": "#A855F7" },
+    { "name": "Cash", "icon": "cash", "color": "#22C55E" },
+    { "name": "Refund", "icon": "refund", "color": "#64748B" }
+  ],
+  "expense": [
+    {
+      "name": "Home",
+      "icon": "house",
+      "color": "#2563EB",
+      "children": [
+        { "name": "Rent", "icon": "rent", "color": "#DC2626" },
+        { "name": "Society Maintenance", "icon": "apartment", "color": "#1D4ED8" },
+        { "name": "Repairs", "icon": "repair", "color": "#3B82F6" },
+        { "name": "Domestic Help", "icon": "cleaning", "color": "#60A5FA" }
+      ]
+    },
+    {
+      "name": "Bills",
+      "icon": "bills",
+      "color": "#8B5CF6",
+      "children": [
+        { "name": "Electricity", "icon": "electricity", "color": "#EAB308" },
+        { "name": "Water", "icon": "water", "color": "#0EA5E9" },
+        { "name": "Cooking Gas", "icon": "gas", "color": "#F97316" },
+        { "name": "Internet & DTH", "icon": "wifi", "color": "#7C3AED" },
+        { "name": "Mobile Recharge", "icon": "phone", "color": "#6366F1" }
+      ]
+    },
+    {
+      "name": "Groceries",
+      "icon": "groceries",
+      "color": "#84CC16",
+      "children": [
+        { "name": "Monthly Ration", "icon": "kitchen", "color": "#65A30D" },
+        { "name": "Vegetables & Fruits", "icon": "store", "color": "#22C55E" },
+        { "name": "Milk & Dairy", "icon": "breakfast", "color": "#A3E635" }
+      ]
+    },
+    {
+      "name": "Kids",
+      "icon": "baby",
+      "color": "#F59E0B",
+      "children": [
+        { "name": "School Fees", "icon": "education", "color": "#D97706" },
+        { "name": "Tuition & Classes", "icon": "reading", "color": "#CA8A04" },
+        { "name": "Toys & Activities", "icon": "soccer", "color": "#FBBF24" }
+      ]
+    },
+    {
+      "name": "Transport",
+      "icon": "transport",
+      "color": "#3B82F6",
+      "children": [
+        { "name": "Fuel", "icon": "fuel", "color": "#1D4ED8" },
+        { "name": "Vehicle Service", "icon": "car_repair", "color": "#2563EB" },
+        { "name": "Public Transport", "icon": "train", "color": "#60A5FA" },
+        { "name": "Cab & Auto", "icon": "taxi", "color": "#93C5FD" }
+      ]
+    },
+    {
+      "name": "Health",
+      "icon": "health",
+      "color": "#EF4444",
+      "children": [
+        { "name": "Doctor", "icon": "doctor", "color": "#DC2626" },
+        { "name": "Medicines", "icon": "pharmacy", "color": "#F87171" },
+        { "name": "Health Insurance", "icon": "insurance", "color": "#B91C1C" }
+      ]
+    },
+    {
+      "name": "Food",
+      "icon": "food",
+      "color": "#F97316",
+      "children": [
+        { "name": "Eating Out", "icon": "dinner", "color": "#EA580C" },
+        { "name": "Food Delivery", "icon": "fastfood", "color": "#FB923C" }
+      ]
+    },
+    {
+      "name": "Shopping",
+      "icon": "shopping",
+      "color": "#EC4899",
+      "children": [
+        { "name": "Clothing", "icon": "clothing", "color": "#DB2777" },
+        { "name": "Home Essentials", "icon": "furniture", "color": "#BE185D" },
+        { "name": "Electronics", "icon": "tv", "color": "#F472B6" }
+      ]
+    },
+    {
+      "name": "Entertainment",
+      "icon": "entertainment",
+      "color": "#06B6D4",
+      "children": [
+        { "name": "Movies & Outings", "icon": "theater", "color": "#0891B2" },
+        { "name": "Subscriptions", "icon": "streaming", "color": "#6366F1" }
+      ]
+    },
+    {
+      "name": "Festivals & Gifts",
+      "icon": "festival",
+      "color": "#E11D48",
+      "children": [
+        { "name": "Festivals", "icon": "festival", "color": "#F43F5E" },
+        { "name": "Gifts", "icon": "gift", "color": "#A855F7" },
+        { "name": "Donations", "icon": "donation", "color": "#9F1239" }
+      ]
+    },
+    {
+      "name": "EMI",
+      "icon": "emi",
+      "color": "#78716C",
+      "children": [
+        { "name": "Home Loan", "icon": "house", "color": "#57534E" },
+        { "name": "Vehicle Loan", "icon": "car", "color": "#A8A29E" },
+        { "name": "Personal Loan", "icon": "bank", "color": "#44403C" }
+      ]
+    }
+  ]
+}

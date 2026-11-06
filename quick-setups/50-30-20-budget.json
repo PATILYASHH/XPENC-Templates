@@ -1,0 +1,44 @@
+{
+  "format": "xpenc-category-template",
+  "version": 1,
+  "name": "50/30/20 Budget",
+  "description": "Two groups for everything you spend: Needs (about 50% of what comes in) and Wants (about 30%). Put the last 20% into Goals - saving is a transfer, not spending.",
+  "income": [
+    { "name": "Salary", "icon": "salary", "color": "#16A34A" },
+    { "name": "Profit", "icon": "profit", "color": "#0EA5E9" },
+    { "name": "Gift", "icon": "gift", "color": "#A855F7" },
+    { "name": "Cash", "icon": "cash", "color": "#22C55E" },
+    { "name": "Interest", "icon": "interest", "color": "#14B8A6" },
+    { "name": "Refund", "icon": "refund", "color": "#64748B" }
+  ],
+  "expense": [
+    {
+      "name": "Needs",
+      "icon": "house",
+      "color": "#2563EB",
+      "children": [
+        { "name": "Rent", "icon": "rent", "color": "#DC2626" },
+        { "name": "Groceries", "icon": "groceries", "color": "#84CC16" },
+        { "name": "Bills", "icon": "bills", "color": "#8B5CF6" },
+        { "name": "Transport", "icon": "transport", "color": "#3B82F6" },
+        { "name": "Health", "icon": "health", "color": "#EF4444" },
+        { "name": "EMI", "icon": "emi", "color": "#78716C" },
+        { "name": "Insurance", "icon": "insurance", "color": "#0EA5E9" },
+        { "name": "Education", "icon": "education", "color": "#F59E0B" }
+      ]
+    },
+    {
+      "name": "Wants",
+      "icon": "festival",
+      "color": "#EC4899",
+      "children": [
+        { "name": "Food", "icon": "food", "color": "#F97316" },
+        { "name": "Shopping", "icon": "shopping", "color": "#DB2777" },
+        { "name": "Entertainment", "icon": "entertainment", "color": "#06B6D4" },
+        { "name": "Travel", "icon": "travel", "color": "#14B8A6" },
+        { "name": "Subscriptions", "icon": "streaming", "color": "#6366F1" },
+        { "name": "Personal care", "icon": "spa", "color": "#F472B6" }
+      ]
+    }
+  ]
+}
